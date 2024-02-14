@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+
+  ContextMenu_DigWormsAction = "Копать червей",
+
+}

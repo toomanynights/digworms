@@ -1,0 +1,5 @@
+Tooltip_RU = {
+
+    Tooltip_RemoveThisFurrow = "Закопать грядку",
+
+}
