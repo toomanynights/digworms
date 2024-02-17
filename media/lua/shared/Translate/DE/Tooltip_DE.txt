@@ -1,0 +1,5 @@
+Tooltip_DE = {
+
+    Tooltip_RemoveThisFurrow = "Entfernen Sie diese Furche",
+
+}

@@ -1,0 +1,5 @@
+ContextMenu_JP = {
+
+  ContextMenu_DigWormsAction = "ディグワーム",
+
+}

@@ -1,0 +1,5 @@
+Tooltip_PL = {
+
+    Tooltip_RemoveThisFurrow = "Usuñ tê bruzdê",
+
+}

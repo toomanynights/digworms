@@ -1,0 +1,5 @@
+Tooltip_FR = {
+
+    Tooltip_RemoveThisFurrow = "Supprimez ce sillon",
+
+}

@@ -1,0 +1,5 @@
+Tooltip_HU = {
+
+    Tooltip_RemoveThisFurrow = "Távolítsa el ezt a barázdát",
+
+}

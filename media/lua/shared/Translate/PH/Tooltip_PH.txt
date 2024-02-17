@@ -1,0 +1,5 @@
+Tooltip_EN = {
+
+    Tooltip_RemoveThisFurrow = "Alisin ang tudling na ito",
+
+}

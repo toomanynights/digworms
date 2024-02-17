@@ -1,0 +1,5 @@
+ContextMenu_DA = {
+
+  ContextMenu_DigWormsAction = "Grave Orme",
+
+}

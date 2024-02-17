@@ -1,0 +1,5 @@
+Tooltip_FI = {
+
+    Tooltip_RemoveThisFurrow = "Poista tämä uurre",
+
+}

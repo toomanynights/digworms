@@ -1,0 +1,5 @@
+Tooltip_DA = {
+
+    Tooltip_RemoveThisFurrow = "Fjern denne fure",
+
+}

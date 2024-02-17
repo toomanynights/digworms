@@ -1,0 +1,5 @@
+Tooltip_JP = {
+
+    Tooltip_RemoveThisFurrow = "この溝を取り除く",
+
+}

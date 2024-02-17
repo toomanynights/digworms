@@ -1,0 +1,5 @@
+Tooltip_NL = {
+
+    Tooltip_RemoveThisFurrow = "Verwijder deze voor",
+
+}

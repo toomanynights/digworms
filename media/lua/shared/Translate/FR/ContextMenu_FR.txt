@@ -1,0 +1,5 @@
+ContextMenu_FR = {
+
+  ContextMenu_DigWormsAction = "Creusez des vers",
+
+}

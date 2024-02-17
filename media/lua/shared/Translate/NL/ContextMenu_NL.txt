@@ -1,0 +1,5 @@
+ContextMenu_NL = {
+
+  ContextMenu_DigWormsAction = "Wormen graven",
+
+}

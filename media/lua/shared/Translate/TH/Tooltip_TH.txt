@@ -1,0 +1,5 @@
+Tooltip_TH = {
+
+    Tooltip_RemoveThisFurrow = "ลบร่องนี้",
+
+}

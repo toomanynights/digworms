@@ -1,0 +1,5 @@
+ContextMenu_TH = {
+
+  ContextMenu_DigWormsAction = "ขุดหนอน",
+
+}

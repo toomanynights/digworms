@@ -1,0 +1,5 @@
+ContextMenu_TR = {
+
+  ContextMenu_DigWormsAction = "Solucanlarý Kazmak",
+
+}

@@ -1,5 +1,5 @@
 ContextMenu_RU = {
 
-  ContextMenu_DigWormsAction = "РљРѕРїР°С‚СЊ С‡РµСЂРІРµР№",
+  ContextMenu_DigWormsAction = "Копать червей",
 
 }

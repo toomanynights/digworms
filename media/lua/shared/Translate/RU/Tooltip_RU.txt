@@ -1,5 +1,5 @@
 Tooltip_RU = {
 
-    Tooltip_RemoveThisFurrow = "Р—Р°РєРѕРїР°С‚СЊ РіСЂСЏРґРєСѓ",
+    Tooltip_RemoveThisFurrow = "Закопать грядку",
 
 }

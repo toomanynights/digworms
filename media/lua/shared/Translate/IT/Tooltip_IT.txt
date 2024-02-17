@@ -1,0 +1,5 @@
+Tooltip_IT = {
+
+    Tooltip_RemoveThisFurrow = "Togli questo solco",
+
+}

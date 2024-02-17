@@ -1,0 +1,5 @@
+ContextMenu_CN = {
+
+  ContextMenu_DigWormsAction = "挖蠕蟲",
+
+}

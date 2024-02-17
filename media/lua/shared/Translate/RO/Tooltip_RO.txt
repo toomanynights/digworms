@@ -1,0 +1,5 @@
+Tooltip_RO = {
+
+    Tooltip_RemoveThisFurrow = "Îndepărtați această brazdă",
+
+}
