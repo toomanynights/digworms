@@ -2,8 +2,10 @@ require "TimedActions/ISBaseTimedAction"
 require "TimedActions/ISTimedActionQueue"
 require "Farming/ISUI/ISFarmingMenu"
 
-local DigWorms = {}
 local DigWormsAction = require("DigWorms/Action")
+
+local DigWorms = {}
+
 
 --- Main control of worm digging ---
 
@@ -22,7 +24,7 @@ DigWorms.walkToWormDiggingSite = function(player, square)
 end
 
 
-DigWorms.beginDigging = function(worldobjects, player, handItem, sq)
+DigWorms.beginDigging = function(player, handItem, sq)
 
     if handItem then
         ISInventoryPaneContextMenu.equipWeapon(handItem, true, handItem:isTwoHandWeapon(), player:getPlayerNum())
@@ -35,17 +37,19 @@ DigWorms.beginDigging = function(worldobjects, player, handItem, sq)
 end
 
 
-DigWorms.addToContext = function(playerIndex, context, worldobjects, test)
+DigWorms.addToContext = function(playerIndex, context, worldObjects, test)
 
     local digOption = context:getOptionFromName(getText("ContextMenu_Dig"))
+
+    if not digOption then return end
+    if #worldObjects == 0 then return end
+
     local player = getSpecificPlayer(playerIndex)
     local shovel = ISFarmingMenu.getShovel(player)
-    local sq = worldobjects[1]:getSquare()
+    local sq = worldObjects[1]:getSquare()
 
-    if digOption then
-        context:insertOptionAfter(getText("ContextMenu_Dig"), getText("ContextMenu_DigWormsAction"), worldobjects,
-            DigWorms.beginDigging, player, shovel, sq)
-    end
+    context:insertOptionAfter(getText("ContextMenu_Dig"), getText("ContextMenu_DigWormsAction"), 
+    player, DigWorms.beginDigging, shovel, sq)
 
 end
 

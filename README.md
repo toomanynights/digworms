@@ -32,6 +32,10 @@ You can keep digging worms the old-fashioned way - but that doesn't mean I can't
 
 From now on, "Remove" function, apart from just removing a furrow, produces a cursor that you can use to quickly remove furrows you don't need.
 
+# Translations
+
+This mod is AI-translated to all available languages. I don’t have the ability to comprehend the quality of translation - but if you see that things don’t look right on your language, I’d appreciate your contribution.
+
 # Special thanks
 
 -   Tchernobill - his "Auto" series was an inspiration for this mod.
