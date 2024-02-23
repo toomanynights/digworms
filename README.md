@@ -22,7 +22,7 @@ See for yourself:
 -   One iteration of worm digging takes exactly as long as digging furrow and removing it would.
 -   Calorie consumption is unchanged.
 -   Exhaustion is unchanged.
--   Chance to get a worm per digging iteration is unchanged.
+-   Chance to get a worm per digging iteration is ~~unchanged~~ **slightly increased** when it's raining (because it makes sense).
 
 One thing that's gone is monotonous button pressing. You're welcome.
 

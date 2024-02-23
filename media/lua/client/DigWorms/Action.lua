@@ -70,8 +70,15 @@ function DigWormsAction:perform()
     end
 
     CFarmingSystem.instance:changePlayer(self.character)
+    
     -- maybe give worm ?
-    if ZombRand(5) == 0 then
+
+    local rainIntensity = getClimateManager():getRainIntensity()
+    local minRainIntensity = 0.15
+    local randRange = 5
+    if rainIntensity > minRainIntensity then randRange = 4 end
+
+    if ZombRand(randRange) == 0 then
         self.character:getInventory():AddItem("Base.Worm")
     end
     ISBaseTimedAction.perform(self)
